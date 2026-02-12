@@ -24,7 +24,7 @@ void loop() {
     Serial.print("Satellites: ");
     Serial.println(gps.satellites.value());
 
-    // Check 1: Has it EVER found a location?
+    // Check 1: Has it ever found a location?
     if (!gps.location.isValid()) {
       Serial.println("Status: Waiting for GPS Fix...");
     }
