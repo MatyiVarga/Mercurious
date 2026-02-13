@@ -1,1 +1,1 @@
-This is the GPS readme.
+This is the GPS folder.
